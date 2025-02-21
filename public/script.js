@@ -36,7 +36,7 @@ document.getElementById('descargarExcel').addEventListener('click', async functi
 
     // Enviar los datos al backend
     try {
-        const response = await fetch('http://localhost:3000/generar-excel', {
+        const response = await fetch('https://minuta-l03d.onrender.com', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
